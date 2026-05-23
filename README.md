@@ -1,8 +1,11 @@
-# Caro AI – Trò Chơi Caro vs Máy Tính
-
+# Tên đề tài: Caro AI – Trò Chơi Caro vs Máy Tính
 Một trò chơi Caro (Tic-Tac-Toe mở rộng) tương tác với giao diện đồ họa Pygame. Người chơi có thể chơi trên bàn **3×3** hoặc **5×5** chống lại AI.
 
-## Thành viên dự án
+# Được thực hiện bởi các sinh viên: Lê Bá Thuần, Nguyễn Đức Đăng, Trần Cao Nguyên.
+# Dưới sự hướng dẫn của giảng viên: Nguyễn Thị Tuyết Hải
+
+
+## Nhiệm vụ được giao của mỗi người 
 
 - **Người 1 (Đăng)**: UI Menu & Board (`ui_menu.py`, `ui_board.py`)
 - **Người 2 (Trần Cao Nguyên)**: Logic & Heuristic (`logic.py`, `heuristic.py`)
