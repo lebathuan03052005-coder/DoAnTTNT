@@ -1,17 +1,8 @@
-# ============================================================
-# heuristic.py  –  Trần Cao Nguyên (Người 2)
-# Nhiệm vụ: Hàm chấm điểm thế trận (Heuristic) cho bàn 5x5.
-#           Người 3 (Thuần) nhận file này và cắm thẳng vào
-#           khung Alpha-Beta của mình.
-# ============================================================
 
 from logic import EMPTY, PLAYER, AI   # dùng chung hằng số
-
-# ──────────────────────────────────────────────
 # BẢNG ĐIỂM
 # Chuỗi càng dài → điểm càng cao (hàm mũ)
 # Hai đầu thoáng (open) > một đầu chặn (half) > bị chặn hoàn toàn (0)
-# ──────────────────────────────────────────────
 _SCORE_TABLE: dict[tuple[int, int], int] = {
     # (độ dài chuỗi, số đầu thoáng)
     (5, 2): 1_000_000,   # Thắng ngay
@@ -113,7 +104,7 @@ def evaluate_board(board: list[list[int]], size: int = 5) -> int:
 
 
 # ──────────────────────────────────────────────
-# HÀM TIỆN ÍCH (Người 3 dùng trong Alpha-Beta)
+# HÀM TIỆN ÍCH CHO UI VÀ AI
 # ──────────────────────────────────────────────
 
 def is_terminal(board: list[list[int]], size: int = 5,

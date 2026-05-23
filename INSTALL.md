@@ -94,5 +94,3 @@ Tất cả các file trên phải có trong cùng thư mục!
 2. Right-click `main.py` → **Run 'main'**
 
 ---
-
-**Nếu vẫn lỗi, liên hệ!** 🎮

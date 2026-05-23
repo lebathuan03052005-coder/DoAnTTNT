@@ -21,9 +21,8 @@ def get_ai_move(game: GameLogic) -> tuple[int, int]:
     ------
     (row, col) : tọa độ nước đi tối ưu.
     """
-    # ── Tối ưu: Nước đầu tiên luôn đặt ở giữa (không cần tính) ──
-    empty_cells = game.get_empty_cells()
-    if len(empty_cells) >= 24:  # Bàn gần như rỗng (≤1 quân)
+    # ── Tối ưu: Nước đầu tiên luôn đặt ở giữa nếu còn trống ──
+    if game.move_count == 1 and game.board[2][2] == EMPTY:
         return (2, 2)
     
     best_move = None

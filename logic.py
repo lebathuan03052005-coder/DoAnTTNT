@@ -1,11 +1,3 @@
-# ============================================================
-# logic.py  –  Trần Cao Nguyên (Người 2)
-# Nhiệm vụ: Xử lý click chuột, quản lý mảng 2 chiều,
-#           quét thắng/thua động theo 4 hướng.
-# Giao tiếp:
-#   - Người 1 (Đăng)  : gọi handle_click(), get_board(), get_game_state()
-#   - Người 3 (Thuần) : nhận board 2D qua get_board(); gọi apply_move()
-# ============================================================
 
 # ──────────────────────────────────────────────
 # HẰNG SỐ  (dùng chung toàn project)
